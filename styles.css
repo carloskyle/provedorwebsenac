@@ -1,0 +1,71 @@
+/* Estilos para a seção da equipe */
+#equipe {
+    padding: 2rem;
+    text-align: center;
+    background-color: #000000;
+}
+
+#equipe h2{
+    font-size: 70px;
+}
+
+
+.equipe-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.membro-equipe {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 2rem);
+    min-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.membro-equipe:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(119, 97, 97, 0.2);
+}
+
+.membro-equipe img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.membro-equipe:hover img {
+    transform: scale(1.1);
+}
+
+.membro-equipe h3 {
+    color: #ff5e00;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.membro-equipe p {
+    color: #2e1504;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .membro-equipe {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .membro-equipe {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,413 @@
+.container1 {
+    padding: 20px 0;
+}
+
+.container1 p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container1 h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.timeline ul li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.point {
+    min-width: 20px;
+    height: 20px;
+    background-color: #643500;
+    border-radius: 100%;
+    z-index: 2;
+    border: 3px #cf6f00 solid;
+    position: relative;
+    left: 1px;
+}
+
+@media (max-width: 800px) {
+    .point {
+        min-width: 15px;
+        height: 15px;
+    }
+
+    html, body {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    html, body {
+        font-size: 14px;
+    }
+    
+    .point {
+        min-width: 12px;
+        height: 12px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    p {
+        padding: 10px !important;
+    }
+}
+
+.timeline ul li .content {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.timeline ul li:nth-child(odd) .content {
+    padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .content {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .date {
+    padding-left: 0;
+}
+
+.timeline ul li .date {
+    width: 50%;
+    padding: 0 20px;
+    font-weight: normal;
+}
+
+.timeline ul li .date h4 {
+    background-color: #cf6f00;
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.timeline ul li .content h3 {
+    padding: 10px 20px;
+    background-color: #cf6f00;
+    margin-bottom: 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.timeline ul li .content p {
+    padding: 10px 20px;
+    background-color: rgb(255, 136, 0);
+    margin-top: 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+    float: right
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 50%;
+    background-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header {
+    background-color: #cf7703;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 300px;
+    margin-top: 0x;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav h1 {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav li{
+    transition: background-color 0.5s;
+    padding: 10px;
+}
+
+nav li:hover{
+    background-color: rgb(112, 75, 7);
+    
+}
+
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.hero .btn {
+    background-color: #ff7b00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.5s;
+}
+
+
+.btn{
+    transition: background-color 0.5s;
+    font-size: 25px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 174, 23);
+}
+
+
+.servicos {
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+.servicos h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.servicos h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.servicos p {
+    font-size: 23px;
+}
+
+.servico-item {
+    display: inline-block;
+    width: 26%;
+    margin: 3%;
+    background-color: #ff7b00;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.servico-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sobre-nos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container {
+    background: #ff7b00;
+    color: #ffffff;
+    padding: 6rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 280px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+.sobre {
+    padding: 50px 20px;
+    text-align: center; 
+}
+
+.sobre h2{
+    font-size: 70px;
+}
+
+
+.sobre img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+}
+
+.swiper {   
+    height: 550px;
+    margin-top: 10px;
+  }
+
+
+  @media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+  }
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.contato {
+    margin-top: 80px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contato h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato input, .contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff7b00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+button{
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color: rgb(255, 174, 23);
+}
+
+footer {
+    background-color: #ff7b00;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 140px;
+}
+
+@media screen and (max-width: 768px) {
+  
+    .servico-item { 
+        width: 80vw;
+    }
+
+    .hero {
+        width: 100vw;
+
+}
+}
