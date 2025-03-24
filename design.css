@@ -411,3 +411,87 @@ footer {
 
 }
 }
+
+.descnist {
+    text-align: center;
+    margin-top: 30px;
+    padding: 40px 20px;
+}
+
+.descnist h2{
+    font-size: 70px;    
+}
+
+.descnist p {
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+
+.corenist {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.corenist h2{
+    font-size: 70px;
+}
+
+.corenist img{
+    width: 800px;
+}
+
+.impnist {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.impnist h2{
+    font-size: 70px;
+}
+
+.impnist img{
+    width: 800px;
+}
+
+.monit{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.monit h1{
+    font-size: 70px;
+}
+
+.zabbix{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+.nagios{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+.zabbix a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.nagios a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.imgzabbix {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imgnagios {
+    text-align: center;
+    margin-top: 30px;  
+}
+
