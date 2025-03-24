@@ -495,3 +495,29 @@ footer {
     margin-top: 30px;  
 }
 
+.github {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.github h2{
+    font-size: 70px;
+}
+
+.github p {
+    font-size: 23px;
+}
+
+.pdf a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #cf6f00;
+    padding: 20px;
+    margin-top: 50px;   
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+}
