@@ -11,6 +11,7 @@
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-size: 70px;
 }
 
 .timeline {
@@ -412,6 +413,13 @@ footer {
 }
 }
 
+.h1nist h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 1px;    
+}
+
 .descnist {
     text-align: center;
     margin-top: 30px;
@@ -419,7 +427,8 @@ footer {
 }
 
 .descnist h2{
-    font-size: 70px;    
+    font-size: 70px;  
+    color: #cf6f00;  
 }
 
 .descnist p {
@@ -435,6 +444,7 @@ footer {
 
 .corenist h2{
     font-size: 70px;
+    color: #cf6f00;
 }
 
 .corenist img{
@@ -448,6 +458,7 @@ footer {
 
 .impnist h2{
     font-size: 70px;
+    color: #cf6f00;
 }
 
 .impnist img{
@@ -471,19 +482,44 @@ footer {
 
 .nagios{
     text-align: center;
-    margin-top: 90px;
+    margin-top: 0px;
     font-size: 30px;
 }
 
+.nagios h2{
+    color: #cf7703;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.nagios p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.zabbix p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
 .zabbix a{
     text-decoration: none;
     margin-bottom: 20px;
+    color: #cf7703;
+}
+
+.zabbix h2{
+    color: #cf7703;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .nagios a{
     text-decoration: none;
     margin-bottom: 20px;
+    color: #cf7703;
 }
+
 
 .imgzabbix {
     text-align: center;
@@ -521,3 +557,35 @@ footer {
     font-size: 60px;
     color: white;
 }
+
+.tudaosql {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tudaosql h2{
+    font-size: 70px;
+    color: #cf6f00;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.tudaosql p{
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+.tudaosql a{
+    margin-top: 100px;
+    text-decoration: none;
+    color: #00758F;
+    font-size: 30px;
+}
+
+.monit a{
+    margin-top: 100px;
+    text-decoration: none;
+    color: #00758F;
+    font-size: 30px;
+}
+
