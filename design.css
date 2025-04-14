@@ -991,7 +991,27 @@ footer {
     line-height: 30px;
 }
 
+.seguranca{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
+.seguranca hr{
+    margin: 60px;
+}
+.seguranca h3{
+    font-size: 40px;
+    color: #cf6f00;
+}
+
+.seguranca p{
+    margin-top: 15px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+    line-height: 30px;
+}
 .cobitfull2{
     display: flex;
     justify-content: space-between;
